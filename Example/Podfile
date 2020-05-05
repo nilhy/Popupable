@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Popupable_Example' do
+  pod 'Popupable', :path => '../'
+
+  target 'Popupable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
