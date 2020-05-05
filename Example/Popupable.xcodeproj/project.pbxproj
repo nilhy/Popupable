@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DAB7A9F24614FDD00E961C3 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB7A9D24614FDD00E961C3 /* DemoViewController.swift */; };
+		5DAB7AA024614FDD00E961C3 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB7A9E24614FDD00E961C3 /* DemoViewController.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +31,10 @@
 
 /* Begin PBXFileReference section */
 		10A0FCC4CA4464DCC3005240 /* Pods-Popupable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popupable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Popupable_Tests/Pods-Popupable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C90F8D1F32A5832B324C9BB /* Popupable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Popupable.podspec; path = ../Popupable.podspec; sourceTree = "<group>"; };
+		2C90F8D1F32A5832B324C9BB /* Popupable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Popupable.podspec; path = ../Popupable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37E6AAABBA040AE689EA4D1F /* Pods_Popupable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Popupable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAB7A9D24614FDD00E961C3 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		5DAB7A9E24614FDD00E961C3 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Popupable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popupable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +45,11 @@
 		607FACE51AFB9204008FA782 /* Popupable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Popupable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A4D2534A0B7017D9EB4BC701 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A4D2534A0B7017D9EB4BC701 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D1CAA4256CB9AB1266CBF1EB /* Pods_Popupable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Popupable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4561224F52A79E84D2D3307 /* Pods-Popupable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popupable_Example.debug.xcconfig"; path = "Target Support Files/Pods-Popupable_Example/Pods-Popupable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC6903191565FEFD768A6BED /* Pods-Popupable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popupable_Tests.release.xcconfig"; path = "Target Support Files/Pods-Popupable_Tests/Pods-Popupable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E09404270AE62749F18A4951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E09404270AE62749F18A4951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD2C9A5B20EEA5B310F4EEA9 /* Pods-Popupable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popupable_Example.release.xcconfig"; path = "Target Support Files/Pods-Popupable_Example/Pods-Popupable_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				5DAB7A9D24614FDD00E961C3 /* DemoViewController.swift */,
+				5DAB7A9E24614FDD00E961C3 /* DemoViewController.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +162,6 @@
 				10A0FCC4CA4464DCC3005240 /* Pods-Popupable_Tests.debug.xcconfig */,
 				DC6903191565FEFD768A6BED /* Pods-Popupable_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -249,6 +255,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				5DAB7AA024614FDD00E961C3 /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DAB7A9F24614FDD00E961C3 /* DemoViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

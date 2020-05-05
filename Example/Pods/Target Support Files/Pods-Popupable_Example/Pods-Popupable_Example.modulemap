@@ -1,0 +1,6 @@
+framework module Pods_Popupable_Example {
+  umbrella header "Pods-Popupable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

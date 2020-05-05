@@ -1,0 +1,16 @@
+PODS:
+  - Popupable (0.1.0)
+
+DEPENDENCIES:
+  - Popupable (from `../`)
+
+EXTERNAL SOURCES:
+  Popupable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Popupable: 7cc105b92dfcd29a4f1ef44bc3023eeacce9b2dd
+
+PODFILE CHECKSUM: 8c954c368a8a1337d1759a32633cc63f9788db5e
+
+COCOAPODS: 1.9.1
